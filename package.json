@@ -1,0 +1,29 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "webRTCDemo",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "~4.0.0",
+    "ws": "*",
+    "fs": "*",
+    "https": "*",
+    "webrtc.io": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhoutaoo/webRTCDemo.git"
+  },
+  "keywords": [
+    "webrtc"
+  ],
+  "author": "zhoutaoo",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zhoutaoo/webRTCDemo/issues"
+  },
+  "homepage": "https://github.com/zhoutaoo/webRTCDemo#readme"
+}
