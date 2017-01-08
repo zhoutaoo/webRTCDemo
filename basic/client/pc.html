@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>webRTCDemo</title>
+    <script src="//cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
 </head>
 <body>
-Local: <br>
-<video id="localVideo" autoplay></video>
+<div id="ctls">
+    <input id="call" value="呼叫" type="button" onclick="javascript:call()"/>
+    <input id="answer" value="接听" type="button" onclick="javascript:answer()"/>
+    <input id="hangup" value="挂断" type="button" onclick="javascript:hangup()"/>
+</div>
 <br>
 Remote: <br>
 <video id="remoteVideo" autoplay></video>
+<br>
+Local: <br>
+<video id="localVideo" autoplay style="width: 300px;height: 200px"></video>
 
 <script src="pc.js"></script>
 </body>
